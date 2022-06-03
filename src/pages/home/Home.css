@@ -49,6 +49,7 @@ label {
     font-size: 12px;
     border-radius: 30px;
     width: 300px;
+    background: blue;
 }
 
 @media screen and (max-width: 780px) {
