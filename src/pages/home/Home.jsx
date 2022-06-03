@@ -47,6 +47,16 @@ export const Form = () => {
         variant="standard"
         margin="normal"
       />
+      <div className="form-button">
+        <input
+          type="email"
+          className="form-control"
+          placeholder="Enter your email address..."
+        />
+        <button type="submit" className="btn btn-primary">
+          Join our waiting list
+        </button>
+      </div>
     </Box>
   );
 };

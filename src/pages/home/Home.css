@@ -6,6 +6,7 @@
     text-align: center;
     height: 95vh;
     width: auto;
+    margin-bottom: 50px;
 }
 
 .home h1  {
@@ -29,4 +30,46 @@ label {
 .input {
     border-bottom: 2px solid #fff !important;
     margin: 15px 10px !important;
+}
+
+
+.form-button {
+    display: flex;
+    margin: 10px 0;
+}
+
+.form-button input {
+    border-radius: 30px;
+    padding: 10px 20px !important;
+}
+
+.form-button button {
+    margin-left: -50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+@media screen and (max-width: 780px) {
+    .home {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .form-button {
+        margin: 10px 10px;
+    }
+
+    .form-button input {
+        
+        padding: 5px 15px !important;
+    }
+
+    .form-button button {
+        margin-left: -40px;
+        text-transform: uppercase;
+        font-size: 11px;        
+        width: 250px;
+    }
 }
