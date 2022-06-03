@@ -7,6 +7,7 @@
     height: 95vh;
     width: auto;
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .home h1  {
@@ -14,6 +15,7 @@
     line-height: 1.5;
     margin: 10px 0;
     font-weight: 700;
+    width: 50%;
 }
 
 .home__callOut-tx {
@@ -54,7 +56,8 @@ label {
 
 @media screen and (max-width: 780px) {
     .home {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
         height: auto;
     }
 
@@ -72,5 +75,8 @@ label {
         text-transform: uppercase;
         font-size: 11px;        
         width: 250px;
+    }
+    .home h1 {
+        width: auto;
     }
 }
