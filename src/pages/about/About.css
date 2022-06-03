@@ -1,0 +1,139 @@
+/* About us section */
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 10rem;
+}
+
+.about__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.underline {
+    width: 50px;
+    height: 2px;
+    margin-right: 8px;
+     margin-top: -8px;
+    background: #fff; 
+    position: relative;   
+}
+
+.about__callout {
+    margin-right: -10rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   width: 30%;
+}
+
+
+
+.about__callout p {
+    font-weight: 400 !important;;
+}
+
+@media screen and (max-width: 780px) {
+    .about {
+        margin-top: 5rem;
+    }
+    .about__callout {
+        margin-right: 0;
+        width: 85%;
+    }
+}
+
+.about__title {
+    margin-left: -20rem;
+}
+
+.about__text {
+    width: 25%;
+    margin-right: -30rem;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 780px) {
+    .about__text {
+        margin-right: 0;
+        width: 85%;
+        margin-top: 40px;
+    }
+}
+
+/* Article section */
+
+.about__article {
+    font-weight: 350;
+    color: #fff;
+    padding: 10px 30px !important;
+    margin: 50px auto;
+}
+
+
+/* Why Us Section */
+
+.whyus {
+    display: flex;
+    justify-content: space-around !important;
+    
+}
+
+.whyus p {
+    line-height: 1.6;
+}
+
+.whyus__title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.whyus__title span {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.growing__with {
+    margin-left: 90px !important;
+}
+
+@media screen and (max-width: 780px) {
+    .whyus {
+        flex-direction: column;    
+    }
+
+    .growing__with {
+        margin-left: auto !important;
+    }
+}
+
+/* got question */
+
+.got__question {
+    background-color: rgba(149, 79, 206, 0.151);
+    padding: 5rem 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.got__question .link {
+    color: rgb(175, 11, 240);
+    transition: ease .2s;
+}
+
+.got__question .arrow {
+    font-size: 18px;
+}
+
+.got__question .link.link:hover {
+    color: rgba(143, 10, 192, 0.425);
+}

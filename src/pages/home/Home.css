@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 95vh;
+    width: auto;
+}
+
+.home h1  {
+    color: #fff;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.home__callOut-tx {
+    color: #fff;
+    margin: 10px 0;
+}
+
+
+
+label {
+    color: #fff !important;
+}
+
+.input {
+    border-bottom: 2px solid #fff !important;
+    margin: 15px 10px !important;
+}

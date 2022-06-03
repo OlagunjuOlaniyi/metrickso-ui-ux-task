@@ -1,0 +1,16 @@
+.contact {
+    color: #fff !important;
+    background: blue;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+
+
+@media screen and (max-width: 780px) {
+    
+    .navbar2 {
+        padding: 20px !important;
+            
+    }
+}

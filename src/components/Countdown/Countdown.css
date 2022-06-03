@@ -1,0 +1,16 @@
+.home__countdonwn-ct {
+    min-width: 70px;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 10px 5px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.home__countdonwn-ct h2 {
+    font-weight: 700;
+}
+
+.home__countdonwn-ct p {
+    line-height: 0;
+}
